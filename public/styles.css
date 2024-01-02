@@ -8,7 +8,7 @@ body{
   }
   h1{
     margin: 40px auto;
-    color: #ff0aa7;
+    color: #3564ff;;
     text-align: center;
   }
   ul{
@@ -21,7 +21,7 @@ body{
     margin: 10px auto;
   }
   li h4{
-    color: #ff0aa7;
+    color: #3564ff;
     margin: 0;
     text-transform: capitalize;
   }
@@ -30,7 +30,7 @@ body{
     margin: 8px 0 0;
   }
   footer{
-    background: #eee;
+    background: #333;
     padding: 60px;
     margin-top: 60px;
   }
@@ -42,8 +42,8 @@ body{
   label{
     display: block;
     font-weight: bold;
-    font-size: 0.8em;
-    color: #333;
+    font-size: 1em;
+    color: #fff;
     margin: 16px 0 6px;
   }
   input, select{
@@ -58,10 +58,12 @@ body{
   button{
     color: white;
     border: 0;
-    background: #ff0aa7;
+    background: #3564ff;;
     padding: 6px;
     min-width: 80px;
     border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
   }
   footer a{
     text-align: center;
@@ -69,4 +71,27 @@ body{
     color: #999;
     margin-top: 40px;
     font-size: 0.7em;
+  }
+
+
+  #type,
+  option {
+    background-color: #a49898;
+    color: white;
+    font-weight: bold;
+  }
+
+  .item-list li {
+    /* border: 2px solid #333; */
+    box-shadow: 0 0 3px ;
+  }
+
+
+  @media screen and (max-width:450px) {
+    button {
+      margin-top:10px ;
+    }
+    * {
+      /* overflow-x: hidden; */
+    }
   }
